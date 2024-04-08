@@ -2,6 +2,7 @@
 
 ### UMATE is a customized api made to rapidly automate using API
 
+##### Sample for post method
 ```
 {
   "tests": [
