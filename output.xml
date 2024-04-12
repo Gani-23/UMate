@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-12T07:57:48.142665" rpa="false" schemaversion="5">
-<suite id="s1" name="Tmpx7Nlq857" source="C:\Users\EagleEye\AppData\Local\Temp\tmpx7nlq857.robot">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-08T14:15:04.254315" rpa="false" schemaversion="5">
+<suite id="s1" name="Tmp98Rxm1Jm" source="C:\Users\EagleEye\AppData\Local\Temp\tmp98rxm1jm.robot">
 <test id="s1-t1" name="Open google.com" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
 <arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-04-12T07:57:48.374445" elapsed="36.520537"/>
+<status status="PASS" start="2024-04-08T14:15:04.311683" elapsed="30.228519"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
 <arg>url=https://google.com</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-04-12T07:58:24.897005" elapsed="1.323855"/>
+<status status="PASS" start="2024-04-08T14:15:34.540202" elapsed="1.000773"/>
 </kw>
-<status status="PASS" start="2024-04-12T07:57:48.373446" elapsed="37.847414"/>
+<status status="PASS" start="2024-04-08T14:15:04.310579" elapsed="31.230396"/>
 </test>
-<status status="PASS" start="2024-04-12T07:57:48.143668" elapsed="38.078187"/>
+<status status="PASS" start="2024-04-08T14:15:04.255322" elapsed="31.286788"/>
 </suite>
 <statistics>
 <total>
@@ -23,7 +23,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Tmpx7Nlq857">Tmpx7Nlq857</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tmp98Rxm1Jm">Tmp98Rxm1Jm</stat>
 </suite>
 </statistics>
 <errors>

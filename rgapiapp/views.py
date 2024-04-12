@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from robot import run
 
 logger = logging.getLogger(__name__)
+
 @csrf_exempt
 def execute_tests(request):
     if request.method == 'POST':
