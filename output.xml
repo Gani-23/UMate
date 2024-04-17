@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-04-16T09:12:00.760655" rpa="false" schemaversion="5">
-<suite id="s1" name="Tmp6Zg3Zg2V" source="C:\Users\saiga\AppData\Local\Temp\tmp6zg3zg2v.robot">
-<test id="s1-t1" name="Stemps" line="5">
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-04-17T10:30:49.349668" rpa="false" schemaversion="5">
+<suite id="s1" name="Tmpf Pzdvl" source="C:\Users\saiga\AppData\Local\Temp\tmpf_pzdvl_.robot">
+<test id="s1-t1" name="Open google.com" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<arg>browser=chrome</arg>
+<arg>https://google.com</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-04-16T09:12:01.889038" elapsed="2.432780"/>
+<status status="PASS" start="2024-04-17T10:30:49.539298" elapsed="7.839392"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
-<arg>url=https://google.com</arg>
+<arg>https://google.com</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-04-16T09:12:04.322819" elapsed="1.397931"/>
+<status status="PASS" start="2024-04-17T10:30:57.378690" elapsed="0.732992"/>
 </kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>locator=name=q</arg>
-<arg>text=Chaaiwala</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-16T09:12:05.720750" elapsed="0.105789"/>
-</kw>
-<kw name="Submit Form" owner="SeleniumLibrary">
-<doc>Submits a form identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-16T09:12:05.826539" elapsed="0.151878"/>
-</kw>
-<status status="PASS" start="2024-04-16T09:12:01.887963" elapsed="4.091455"/>
+<status status="PASS" start="2024-04-17T10:30:49.538233" elapsed="8.573449"/>
 </test>
-<status status="PASS" start="2024-04-16T09:12:00.761652" elapsed="5.217766"/>
+<status status="PASS" start="2024-04-17T10:30:49.350668" elapsed="8.762015"/>
 </suite>
 <statistics>
 <total>
@@ -33,7 +23,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Tmp6Zg3Zg2V">Tmp6Zg3Zg2V</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tmpf Pzdvl">Tmpf Pzdvl</stat>
 </suite>
 </statistics>
 <errors>
