@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-08T14:15:04.254315" rpa="false" schemaversion="5">
-<suite id="s1" name="Tmp98Rxm1Jm" source="C:\Users\EagleEye\AppData\Local\Temp\tmp98rxm1jm.robot">
-<test id="s1-t1" name="Open google.com" line="5">
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-04-16T09:12:00.760655" rpa="false" schemaversion="5">
+<suite id="s1" name="Tmp6Zg3Zg2V" source="C:\Users\saiga\AppData\Local\Temp\tmp6zg3zg2v.robot">
+<test id="s1-t1" name="Stemps" line="5">
 <kw name="Open Browser" owner="SeleniumLibrary">
 <arg>browser=chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-04-08T14:15:04.311683" elapsed="30.228519"/>
+<status status="PASS" start="2024-04-16T09:12:01.889038" elapsed="2.432780"/>
 </kw>
 <kw name="Go To" owner="SeleniumLibrary">
 <arg>url=https://google.com</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-04-08T14:15:34.540202" elapsed="1.000773"/>
+<status status="PASS" start="2024-04-16T09:12:04.322819" elapsed="1.397931"/>
 </kw>
-<status status="PASS" start="2024-04-08T14:15:04.310579" elapsed="31.230396"/>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>locator=name=q</arg>
+<arg>text=Chaaiwala</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T09:12:05.720750" elapsed="0.105789"/>
+</kw>
+<kw name="Submit Form" owner="SeleniumLibrary">
+<doc>Submits a form identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T09:12:05.826539" elapsed="0.151878"/>
+</kw>
+<status status="PASS" start="2024-04-16T09:12:01.887963" elapsed="4.091455"/>
 </test>
-<status status="PASS" start="2024-04-08T14:15:04.255322" elapsed="31.286788"/>
+<status status="PASS" start="2024-04-16T09:12:00.761652" elapsed="5.217766"/>
 </suite>
 <statistics>
 <total>
@@ -23,7 +33,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Tmp98Rxm1Jm">Tmp98Rxm1Jm</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tmp6Zg3Zg2V">Tmp6Zg3Zg2V</stat>
 </suite>
 </statistics>
 <errors>

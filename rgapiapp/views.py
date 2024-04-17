@@ -4,8 +4,13 @@ import tempfile
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from robot import run
+from django.shortcuts import render
 
 logger = logging.getLogger(__name__)
+
+
+def home(request):
+    return render(request, "index.html")
 
 @csrf_exempt
 def execute_tests(request):
