@@ -1,4 +1,4 @@
-Django
+Django = 4.2.9
 robotframework
 jsonfield
 flask
